@@ -1,7 +1,44 @@
 import fetch from 'node-fetch'
 const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
 let handler = async (m, { args, usedPrefix, command }) => {
-if (!args[0]) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙶𝙸𝚃𝙷𝚄𝙱, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command} https://github.com/BrunoSobrino/TheMystic-Bot-MD*`
+if (!args[0]) throw `*PAQUETES AÑADIR A GRUPOS
+
+(MENSUAL)
+Añadir a grupo:
+🇵🇪(Yape, Plin): 7 soles
+🇦🇷(UALA): $700 pesos
+🇨🇱(RUT): $2000
+🌎(Paypal): 2 Dolares/USD
+💎(Diamantes): 200
+
+(PERMANENTE)
+Añadir a grupos (3 grupos)
+🇵🇪(Yape, Plin): S/16 soles
+🇦🇷(UALA): $1600 pesos
+🇨🇱(RUT): $3600 pesos 
+🌎(Paypal): 6 dólares/USD
+💎(Diamantes): 600
+
+
+PAQUETES BOTS PERSONALES Y PARA REVENTA
+
+Bot personal
+(PERMANENTE)
+Sin límites (prohibida su venta, con derechos de autor)
+🇵🇪(Yape, Plin): S/20 soles
+🇦🇷(UALA): $2000 pesos
+🇨🇱(RUT): $5000 pesos 
+🌎(Paypal): 6 dólares/USD
+💎(Diamantes): 600
+
+BOT PARA REVENTA
+(PERMANENTE)
+Sin limite (100% del control del bot)
+🇵🇪(Yape, Plin): S/35 soles
+🇦🇷(UALA): $3500 pesos
+🇨🇱(RUT): $8000 pesos 
+🌎(Paypal): 10 dólares/USD
+💎(Diamantes): 1000`
 if (!regex.test(args[0])) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙸𝙽𝙺 𝙸𝙽𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙾!*'
 let [_, user, repo] = args[0].match(regex) || []
 repo = repo.replace(/.git$/, '')
@@ -12,5 +49,5 @@ conn.sendFile(m.chat, url, filename, null, m)
 }
 handler.help = ['gitclone <url>']
 handler.tags = ['downloader']
-handler.command = /gitclone/i
+handler.command = /precios/i
 export default handler
