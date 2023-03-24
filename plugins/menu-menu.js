@@ -26,14 +26,14 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *@ffxryu.18* —◉
+║    ◉— *@ventas.bots.gerixryu* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *Owner:* Ryu
-║➤ *Numero:* wa.me/51955095498
-║➤ *Bot ofc:* wa.me/56920742083
-║➤ *Yape:* 933 032 298
+║➤ *Owner:* Geri
+║➤ *Numero:* wa.me/56954390663
+║➤ *Bot ofc:* wa.me/56956843163
+║➤ *Yape:* 933 348 947
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
 ║➤ *Usuarios:* ${rtotalreg}
@@ -46,7 +46,7 @@ let str = `
 ┣ *🧰 Experiencia:* ${exp}
 ┣ *⚓ Rango:* ${role}
 ┣ *💎 Diamantes:* ${limit}
-┣ *👾 RyuCoins:* ${money}
+┣ *👾 GeriCoins:* ${money}
 ┣ *🪙 Tokens:* ${joincount}
 ┣ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : '❌'}
 ┗━━━━━━━━━━━━━━━━┛
@@ -639,7 +639,7 @@ mediaUrl: null,
 title: '@ffxryu.18',
 body: null,
 thumbnail: img,
-sourceUrl: `https://wa.me/+51955095498`
+sourceUrl: `https://wa.me/+56954390663`
 }}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
