@@ -8,9 +8,9 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
+  ['56954390663', 'GeriPium', true],
   ['51955095498', '@ffxryu.18', true],
-  ['51955095498', '@ffxryu.18', true],
-  ['51955095498', '@ffxryu.18', true],
+  ['51933348947', '@ffxryu.18', true],
   ['51955095498', '@ffxryu.18', true],
   ['51955095498', '@ffxryu.18', true],
   ['51955095498', '@ffxryu.18', true],
@@ -25,10 +25,10 @@ global.owner = [
 global.suittag = ['51955095498'] 
 global.prems = ['51955095498'] 
 
-global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '@ffxryu.18'
-global.wm = '@ffxryu.18'
-global.igfg = '@ffxryu.18'
+global.packname = 'GeriPium'
+global.author = 'GeriPium'
+global.wm = 'GeriPium'
+global.igfg = 'GeriPium'
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -430,11 +430,11 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ @ffxryu.18`
-global.gt = '@ffxryu.18'
-global.mysticbot = '@ffxryu.18'
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
+global.wm2 = `▸ ${dia} ${fecha}\n▸ GeriPium`
+global.gt = 'GeriPium'
+global.mysticbot = 'GeriPium'
+global.md = 'https://wa.me/+56954390663'
+global.mysticbot = 'https://wa.me/+56954390663'
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
