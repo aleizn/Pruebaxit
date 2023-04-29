@@ -605,5 +605,5 @@ conn.sendFile(m.chat, url, filename, null, m)
 }
 handler.help = ['gitclone <url>']
 handler.tags = ['downloader']
-handler.command = /menuvisible2/i
+handler.command = /menu|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd/i
 export default handler
