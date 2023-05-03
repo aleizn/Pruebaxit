@@ -2,13 +2,13 @@ import fetch from 'node-fetch'
 const regex = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
 let handler = async (m, { args, usedPrefix, command }) => {
 if (!args[0]) throw `*╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *@venta.bots.gerixryu* —◉
+║    ◉— *@clan.yakuza.yk_* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, Usuario⁩*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *Owner:* Geri
-║➤ *Numero:* wa.me/56954390663
-║➤ *Bot ofc:* wa.me/56954390663
+║➤ *Owner:* Sutra
+║➤ *Numero:* wa.me/56981550698
+║➤ *Bot ofc:* wa.me/56981550698
 ║➤ *Yape:* 933 348 947
 ║➤ *Fecha:* Nose
 ║➤ *Tiempo activo:* 24/7
